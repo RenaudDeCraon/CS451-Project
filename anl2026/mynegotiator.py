@@ -1,5 +1,5 @@
 """
-MedellaANLAgent — A competitive agent for ANL 2026 (Automated Negotiation League).
+CunningMerchant — A competitive agent for ANL 2026 (Automated Negotiation League).
 
 ANL 2026 is a bilateral negotiation with a DECEPTION challenge. The agent's final
 score has two components:
@@ -34,7 +34,7 @@ from negmas.sao import SAOCallNegotiator, SAOResponse, SAOState, ResponseType
 
 class MyNegotiator(SAOCallNegotiator):
     """
-    MedellaANLAgent for ANL 2026 — bilateral negotiation with deception.
+    CunningMerchant for ANL 2026 — bilateral negotiation with deception.
 
     The agent combines a strong negotiation strategy (aspiration concession,
     opponent modeling) with a deception layer that strategically chooses bids
